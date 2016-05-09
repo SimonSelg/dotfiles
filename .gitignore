@@ -25,5 +25,10 @@ Thumbs.db
 # Compiled Python files
 *.pyc
 
+# fish shell
+fishd.*
+.config/fish/fish_history
+fish/fish_history
+
 # random
 shilocation

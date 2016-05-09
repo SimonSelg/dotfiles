@@ -24,6 +24,9 @@ brew install bash
 brew tap homebrew/versions
 brew install bash-completion2
 
+# fish
+brew install --HEAD fish
+
 brew install homebrew/completions/brew-cask-completion
 
 # generic colouriser  http://kassiopeia.juls.savba.sk/~garabik/software/grc/

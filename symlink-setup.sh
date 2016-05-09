@@ -20,6 +20,8 @@
 # utils !!!
 #
 
+## symlink fish later: ln -s ~/dotfiles/fish/ ~/.config/fish
+
 
 answer_is_yes() {
     [[ "$REPLY" =~ ^[Yy]$ ]] \
