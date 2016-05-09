@@ -91,12 +91,17 @@ I have some EXPORTS, my PATH construction, and a few aliases for ssh'ing into my
 I don't know how other folks manage their $PATH, but this is how I do mine:
 
 ```shell
+PATH=/bin
+PATH=$PATH:/sbin
+PATH=$PATH:/usr/local/bin
+PATH=$PATH:/usr/bin
+PATH=$PATH:/usr/sbin
+PATH=$PATH:/opt/local/bin
 PATH=$PATH:/opt/local/sbin
-PATH=$PATH:/bin
 PATH=$PATH:~/.rvm/bin
 PATH=$PATH:~/code/git-friendly
-# ...
-
+PATH=$PATH:/Library/TeX/texbin
+...
 export PATH
 ```
 
